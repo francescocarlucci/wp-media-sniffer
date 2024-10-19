@@ -53,7 +53,8 @@ def main():
 
     if st.button("Fetch Media URLs"):
         if base_url:
-            media_urls = fetch_media_urls(base_url.strip(), max_pages, extensions)
+            with st.spinner('Fetching media URLs...'):
+                media_urls = fetch_media_urls(base_url.strip(), max_pages, extensions)
             if media_urls:
                 st.success(f"Found {len(media_urls)} media URLs:")
                 for url in media_urls:
