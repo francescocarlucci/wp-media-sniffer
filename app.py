@@ -41,6 +41,8 @@ def fetch_media_urls(base_url, max_pages=None, extensions=None):
 def main():
     st.title("WP Media URL Sniffer")
 
+    st.write('In order to work, the target site must have the WP API active and publicly reachable (as it is by default).')
+
     # Input fields
     base_url = st.text_input("Enter the WordPress site URL:")
     max_pages = st.number_input("Number of pages to scrape:", min_value=1, step=1, value=1)
