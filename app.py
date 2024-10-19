@@ -42,7 +42,7 @@ def main():
     st.title("WP Media URL Sniffer")
 
     # Input fields
-    base_url = st.text_input("Enter the WordPress site URL (e.g., https://example.com):")
+    base_url = st.text_input("Enter the WordPress site URL:")
     max_pages = st.number_input("Number of pages to scrape:", min_value=1, step=1, value=1)
     extensions_input = st.text_input("Filter by file extensions (comma-separated, e.g., zip,pdf):")
 
@@ -60,6 +60,10 @@ def main():
                 st.warning("No media URLs found.")
         else:
             st.error("Please enter a valid WordPress site URL.")
+
+    st.divider()
+
+    st.write('An experiment by [Francesco Carlucci](https://francescocarlucci.com)')
 
 if __name__ == "__main__":
     main()
