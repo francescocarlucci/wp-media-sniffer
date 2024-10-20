@@ -39,9 +39,11 @@ def fetch_media_urls(base_url, max_pages=None, extensions=None):
     return media_urls
 
 def main():
-    st.title("WP Media URL Sniffer")
+    st.title("WP Media Sniffer")
 
-    st.write('In order to work, the target site must have the WP API active and publicly reachable (as it is by default).')
+    st.write('WP Media Sniffer is a scanning tool that retrieves media URLs from any WordPress site using the REST API. It leverages the fact that many WordPress plugins overlook the public nature of the media folder, and is not uncommon to find private files, PII, code, and even credentials exposed.')
+
+    st.write('In order to work, the target site must have the WP API active and publicly reachable.')
 
     # Input fields
     base_url = st.text_input("Enter the WordPress site URL:")

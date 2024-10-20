@@ -1,6 +1,6 @@
-# WP Media URL Sniffer
+# WP Media Sniffer
 
-This Python application is a reconnaissance tool designed to fetch media URLs from a WordPress site using the REST API.
+WP Media Sniffer is a scanning tool written in Python, designed to fetch media URLs from a WordPress site using the REST API.
 
 It leverages the fact that many WordPress plugins overlook the public nature of the media folder, which should not be used to store sensitive attachments.
 
