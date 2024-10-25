@@ -4,6 +4,8 @@ WP Media Sniffer is a scanning tool written in Python, designed to fetch media U
 
 It leverages the fact that many WordPress plugins overlook the public nature of the media folder, which should not be used to store sensitive attachments.
 
+Demo available on: https://wp-media-sniffer.streamlit.app/
+
 ## Features
 
 - **URL Input**: Enter the WordPress site URL to start fetching media URLs.
@@ -26,4 +28,4 @@ This piece of software is not intended to be used for malicious purposes.
 
 It's just a draft, if you like the concept feel free to fork it and extend it!
 
-Created by: [Francesco Carlucci]([https://frenxi.com](https://francescocarlucci.com/))
+Created by: [Francesco Carlucci](https://frenxi.com](https://francescocarlucci.com/)
