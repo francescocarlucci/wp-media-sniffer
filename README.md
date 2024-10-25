@@ -28,4 +28,4 @@ This piece of software is not intended to be used for malicious purposes.
 
 It's just a draft, if you like the concept feel free to fork it and extend it!
 
-Created by: [Francesco Carlucci](https://frenxi.com](https://francescocarlucci.com/)
+Created by: [Francesco Carlucci](https://francescocarlucci.com/)
